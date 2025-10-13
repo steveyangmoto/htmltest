@@ -1,7 +1,14 @@
 <html>
+  <script>
+    function redirectToPage(){
+      window.location.href="https://m-standout.tmbc.com/authorize?token=universal";
+    }
+  </script>
   <body>
     <a href='tel:(862) 237-5270'>call me</a><br>
     <a href='standout://login?token=hello'>redirect me</a><br>
     <a href='https://m-standout.tmbc.com/authorize?token=hello'>universal link redirect</a>
+    <button onclick="redirectToPage()"> go to universal link</button>
+    
   </body>
 </html>
